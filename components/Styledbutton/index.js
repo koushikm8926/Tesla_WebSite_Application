@@ -6,8 +6,6 @@ const Styledbutton = (props)=>{
 
      const type = props.type;
    
-     
-
      const backgroundcolor = type ==='primary'? 'black' : 'white';
      const textColor = type ==='primary'? 'white' : 'black';
 
@@ -16,7 +14,7 @@ const Styledbutton = (props)=>{
             <Pressable style={[styles.button,{backgroundColor:backgroundcolor}]} 
             onPress={()=>{console.warn("Button Pressed")}}>
             
-                 <Text style={[ {color:textColor}]}>Custom Button</Text>
+                 <Text style={[ {color:textColor}]}>BUY NOW</Text>
              </Pressable>
 
             
